@@ -1,0 +1,62 @@
+ *** Comandos básicos GIT ***
+
+Informações adicionais:
+
+ CLI - Command Line Interface x GUI - Graphic User Interface
+
+ GIT é um CLI.
+
+Windows:
+- cd
+- dir
+- mkdir
+- del/ rmdir
+
+Unix:
+- cd
+- ls
+- mkdir
+- rm -rf
+
+* Abrir terminal (prompt de comando): windows iniciar + pesquisa: "cmd"
+
+*Dentro do terminal:
+** Listar diretórios contidos na pasta em que estivermos:
+   - windows: dir
+   - linux: ls
+
+** Mudar de diretório (change directory):
+   - windows e linux: cd + caminho específico
+   - ex.: cd / (este comando voltará para a base das pastas)
+   - ex.: cd Windows (navegar para a pasta Windows)
+   - ex.: cd .. (voltar um nivel)
+
+** Limpar o terminal:
+   - windows: cls
+   - linux: clear ou ctrl + l
+
+** TAB autocompleta nomes:
+   - ex.: cd W + TAB (Completa o nomw Windows)
+
+** Criar uma pasta:
+   - windows e linux: mkdir
+   - ex.: mkdir workspace (cria uma pasta chamada workspace no diretório que estivermos)
+
+** Imprimir uma frase/ texto no terminal:
+   - windows e linux: echo
+   - ex.: echo hello > hello.txt (imprime o texto após "echo" num arquivo .txt que será criado na hora)
+
+** Deletar um arquivo:
+   - windows: del
+   - del workspace (deletar os arquivos contidos no diretório workspace)
+
+** Navegar pelo histórico de comandos já digitados no terminal:
+   - seta para cima
+
+** Deletar diretório e os arquivos contidos nele:
+  - windows: rmdir
+  - linux: rm
+  - ex. windows: rmdir workspace /S /Q (deleta o diretório workspace e todo o seu conteúdo)
+  - ex. linux: rm -rf workspace/
+
+ 

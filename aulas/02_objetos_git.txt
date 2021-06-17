@@ -1,0 +1,27 @@
+ *** GIT por baixo dos panos ***
+
+SHA1 - 	Algoritmo de encriptação (SECURE HASH ALGORITHM)
+	A encriptação gera cojunto de caracteres identificador de 40 dígitos.
+	É uma forma curta de apresentar um arquivo.
+
+	ex.: $ openssl sha1 texto.txt (gera um hash para o arquivo selecionado)
+	Exemplo de saída no terminal: SHA1(texto.txt)= 955a96193d4f64d7ee3082f5849f38cb95e7e1b3
+
+BLOBS, TREES E COMMITS
+	São os três objetos responsáveis pelo versionamento de código.
+
+BLOB - 	 Bloco básico de composição;
+	 Blobs guardam o sha1 do arquivo;
+
+TREE - 	 Armazena e aponta para tipos de blobs diferentes ou para outras árvores;
+	 As árvores são responsáveis por montar toda a estrutura de onde ficam os arquivos;
+	 As árvores têm um sha1 para os metadados das árvores.
+
+COMMIT - É o objeto que junta tudo.
+	 O commit dá sentido à alteração feita no código.
+	 O commit aponta para árvores, aponta para o último commit realizado antes dele, aponta para o autor e para uma mensagem também.
+	 O sha1 do commit é o hash de toda essa informação.
+
+Toda informação alterada num arquivo gera um sha1 para a blob que aponta para aquele arquivo. Essa blob tem uma árvore apontando para ela, e, conssequentemente, altera o sha1 da árvore também. E o commit aponta para uma árvore, pode apontar para outra árvore dentro de outras árvores.
+Sendo assim, modificando-se qualquer coisa no seu arquivo, isso refletirá na árvore, que, consequentemente, refletirá no seu commit. Por isso o git é tão confiável. Pois há a garantia de quem alterou os arquivos. É uma forma segura de que representa exatamente o que você alterou num arquivo.
+Cada commit é único para cada autor.

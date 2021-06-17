@@ -1,0 +1,19 @@
+ *** Ciclo de vida de um arquivo ***
+
+* git init - cria um repositório no git dentro do diretório/ pasta em que estivermos.
+
+* Tracked - arquivos dos quais o git tem ciência. Subdivide-se em 3 tipos:
+	** Unmodified - arquivos ainda não modificados;
+	** Modified - arquivos já modificados;
+	** Staged - estado depois que um arquivo é commitado e antes de voltar para Unmodified.
+
+* Untracked - arquivos dos quais o git não tem ciência.
+
+* git status - informa os status dos arquivos no repositório.
+
+* mv - comando para mover um arquivo
+  ex.: mv strogonoff.md ./aulas/ (mover o arquivo 'strogonoff.md' para o diretório 'aulas')
+
+* git add - comando para adicionar arquivo à área onde os arquivos são preparados para o commit (stage).
+  ex.: git add strogonoff.md aulas/ (adicionamos o arquivo e a pasta em que ele está)
+  ex.: git add * (adicionamos tudo o que estiver na pasta)

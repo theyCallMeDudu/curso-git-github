@@ -1,0 +1,23 @@
+
+ *** Configurações GitHub ***
+
+* git config --list - comando para listar todas as suas configurações, inclusive e-mail e nome de usuário.
+
+* git config --global user.name + nome - comando para configurar nome de usuário do git.
+
+* git config --global user.email + e-mail - comando para configurar e-mail de usuário do git.
+
+* git config --global --unset user.name
+ou
+* git config --global --unset user.email
+
+Ambos acima são comandos para remover as condigurações de nome de usuário e e-mail do git, a fim de configurá-los novamente.
+
+* git remote add origin + link do repositório - comando para adicionar a origem onde enviaremos nosso código.
+
+* git remote -v - comando para exibir a lista de repositórios remotos cadastrados.
+
+* git push origin master - comando para empurrar o código da nossa máquina para o repositório.
+
+
+
