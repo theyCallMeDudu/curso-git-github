@@ -4,3 +4,4 @@ Olá! Este é um curso de introdução ao Git e GitHub visto na Digital Innovati
 
 Os arquivos aqui contidos são anotações de aula contendo os principais conceitos e comandos apresentados neste curso.
 
+Eduardo Coelho
