@@ -1,0 +1,6 @@
+*** Branches ***
+
+* TAGS
+  
+* head: aponta sempre para o último commit válido em uma branch;
+
