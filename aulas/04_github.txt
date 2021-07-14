@@ -21,4 +21,4 @@ Ambos acima são comandos para remover as condigurações de nome de usuário e 
 
 * git pull origin master - comando para puxar o código atual do repositório.
 
-* git remote remove origin - remover origem para qual o código será enviado
+* git remote remove origin - remover origem para qual o código será enviado.
