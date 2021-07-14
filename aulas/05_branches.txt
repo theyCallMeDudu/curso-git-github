@@ -4,3 +4,10 @@
   
 * head: aponta sempre para o último commit válido em uma branch;
 
+* git checkout nomeDaBranch: comando para se movimentar entre as branches
+  - ex.: git checkout -b nova-branch (aqui estamos ao mesmo tempo criando uma nova branch (-b) e nos movimentando para esta nova branch.)
+  - ex.: git checkout main (aqui estamos nos movendo para a branch principal)
+
+* git merge: comando para juntar uma branch com outra.
+  - ex.: git checkout main (primeiro devemos nos mover para a branch principal)
+         E git merge nova-branch (aqui concluímos o merge da branch nova-branch com aquela para onde nos movemos antes (main))
