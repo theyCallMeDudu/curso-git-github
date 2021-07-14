@@ -1,5 +1,8 @@
  *** Ciclo de vida de um arquivo ***
 
+*** Quais são os 4 estágios de arquivos dentro do git?
+Untracked, Unmodified, Modified e Staged.
+
 * git init - cria um repositório no git dentro do diretório/ pasta em que estivermos.
 
 * Tracked - arquivos dos quais o git tem ciência. Subdivide-se em 3 tipos:
