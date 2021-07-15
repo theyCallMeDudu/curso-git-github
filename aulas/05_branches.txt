@@ -22,4 +22,45 @@
 	- ex.: git checkout main (mover-se para a branch principal)
 	e depois
 	- ex.: git merge nova-branch (fundir esta branch com a branch onde estamos)
->>>>>>> Stashed changes
+
+* git branch: comando para mostrar as branches que temos em nosso repositório local.
+
+* git branch -m novoNome: comando para modificar o nome de uma branch já estando nela.
+	- ex.: para já estar nela, é necessário antes mover-se para ela (a branch), e para isso usamos git checkout. 
+	git checkout nova-branch
+		e depois
+	git branch -m novoNome
+
+* git branch -m nomeAtual novoNome: comando para modificar o nome de uma branch estando em outra.
+	- ex.: estou na main e quero mudar o nome de uma branch. -> git branch -m nova-branch velha-branch
+
+* git branch -d nomeDaBranch: comando para deletar uma branch
+
+* git stash save "comentário contextual": comando para adicionar itens a uma stash, uma espécie de caixa onde guardamos itens em que estávamos trabalhando para que não sejam levados de uma branch para outra. Fazemos este comando antes de nos movermos para outra branch.
+
+* git stash list: comando para exibir as stashes salvas em determinadas branches e em quais contextos foram salvas.
+
+* git stash pop indexDaAlteracao: o git stash salva os arquivos em que estiver trabalhando dentro de uma caixa que funciona como um vetor. Sendo assim, quando desejamos extrair algo da stash, usamos o comando pop e indicamos o índice em que o arquivo no qual estávamos trabalhando está.
+	- ex.: git stash pop 1 (retira da caixa o item que estiver no índice 1)
+
+* git stash clear: comando para limpar a stash.
+
+* git log: comando para exibir o histórico de um repositório.
+
+* git log contribuiting: comando para ver histórico dos colaboradores no repositório.
+
+* :q: comando para sair do git log (apenas :q);
+
+* git log nomeDoArquivo: comando para ver o histórico apenas de um arquivo específico.
+
+* git log --oneline: comando para resumir o histórico de commits de um repositório em uma linha.
+
+* git log --graph: comando para exibir o histórico de um repositório de forma "gráfica".
+
+* gitk: comando para Windows que abre uma janela com o histórico de um repositório utilizando uma forma mais ilustrativa de demonstrar as alterações.
+
+* git reset --soft: reverte um commit movendo os arquivos de volta para o index;
+
+* git reset --mixed: reverte um commit movendo os arquivos de volta para seu diretório de trabalho, como se não tivesse dado git add;
+
+* git reset --hard: apaga um commit, como se ele não tivesse existido.

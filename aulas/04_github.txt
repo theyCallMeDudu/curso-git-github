@@ -22,3 +22,8 @@ Ambos acima são comandos para remover as condigurações de nome de usuário e 
 * git pull origin master - comando para puxar o código atual do repositório.
 
 * git remote remove origin - remover origem para qual o código será enviado.
+
+* git config --global core editor "code --wait"
+
+* git config --global unset + configuração desejada: comando para remover a configuração estabelecida para determinado parâmetro.
+	- ex.: git config --global --unset core.ditor (remove o editor de código padrão que havia sido definido por você).

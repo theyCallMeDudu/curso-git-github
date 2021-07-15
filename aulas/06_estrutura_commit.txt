@@ -1,0 +1,27 @@
+ *** COMMITS ***
+
+* Estrutura:
+- Assunto
+- Corpo
+- Rodapé
+
+** Assunto:
+- Curto e compreensível
+- Até 50 caracteres
+- Começar com letra maiúscula
+- Não terminar em ponto "."
+- Escrito de forma imperativa
+
+ex.:    Adiciona a funcionalidade x
+	Modifica uma funcionalidade existente
+	Remove a funcionalidade y
+
+** Corpo:
+- Adicione detahes ao commit
+- Tente quebrar a linha em 75 caracteres
+- Identifique sua audiência
+- Explique tudo
+- Use markdown
+
+** Rodapé:
+- Referencie assuntos relacionados
